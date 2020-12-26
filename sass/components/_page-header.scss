@@ -1,0 +1,144 @@
+.header .container{
+  border-bottom: 1px solid #ececec;
+  height: 80px;
+}
+
+/* .header .container {
+  display: flex;
+  align-items: center;
+  height: 80px;  
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+} */
+
+.position{
+  position: relative;
+  display: inline-block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  height: 80px;
+}
+
+.position::after{
+  position: absolute;
+  display: inline-block;
+  content: '';
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--blue-color);
+}
+
+.header .logo {
+  margin-right: 93px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list,
+.navigation-list-information {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-list-information {
+  margin-left: 305px;
+}
+
+.header-mail, .header-tel{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  fill: var(--grey-color);
+  transition: var(--time-color);
+}
+
+.logo-link{
+  margin-right: 10px;
+  transition: var(--time-fill);
+}
+  
+.header-mail:hover,
+.header-mail:focus { 
+  color: var(--blue-color);
+}
+
+.header-mail:hover .logo-link,
+.header-mail:focus .logo-link{
+  fill: var(--blue-color)
+}
+
+.header-tel:hover,
+.header-tel:focus { 
+  color: var(--blue-color);
+}
+
+.header-tel:hover .logo-link,
+.header-tel:focus .logo-link{
+  fill: var(--blue-color)
+}
+
+.header-mail{
+  margin-right: 30px;
+}
+
+.logo-header,
+.logo,
+.logo-footer {
+  font-family: var(--logo-text);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.navigation-list-link,
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-item{
+  display: flex;
+  flex: wrap;
+}
+
+.navigation-list-link,
+.header-mail,
+.address-list-link {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.navigation-list-link{
+  transition: var(--time-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--blue-color);
+}
+
+.header-tel,
+.header-mail {
+  color: var(--grey-color);
+  text-decoration: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}

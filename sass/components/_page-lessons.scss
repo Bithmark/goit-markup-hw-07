@@ -1,0 +1,43 @@
+
+.lessons-title {
+    margin-bottom: 50px;
+  }
+  
+  .lessons-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 94px;
+  }
+  
+  .lessons-title,
+  .command-main-title,
+  .clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+  }
+  
+  .lessons-text{
+   color: var(--white-color);
+  }
+  
+  .lessons-list-item{
+    position: relative;
+  }
+  
+  .lessons-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  
+  .container-lessons{
+    position: absolute;
+    bottom: 0;
+  }
