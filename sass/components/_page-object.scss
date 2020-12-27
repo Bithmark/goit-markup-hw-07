@@ -1,5 +1,9 @@
-
-.container-object{
+    .object-list {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+    .container-object{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,15 +11,9 @@
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  
-  .object .object-list {
-    display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
+    margin-bottom: 30px; }
+}
+
   .margin:not(:last-child) {
     margin-right: 30px;
   }

@@ -1,14 +1,21 @@
 
-.lessons-title {
+.lessons .container{
+
+  .lessons-title {
     margin-bottom: 50px;
   }
-  
+
   .lessons-list {
     display: flex;
     align-items: center;
     margin-bottom: 94px;
   }
-  
+
+  .lessons-list-item{
+    position: relative;
+  }
+}
+ 
   .lessons-title,
   .command-main-title,
   .clients-title {
@@ -20,15 +27,17 @@
     color: var(--black-color);
   }
   
-  .lessons-text{
-   color: var(--white-color);
+
+  .container-lessons{
+
+    position: absolute;
+    bottom: 0;
+
+    .lessons-text{
+     color: var(--white-color);
   }
   
-  .lessons-list-item{
-    position: relative;
-  }
-  
-  .lessons-text{
+    .lessons-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +45,5 @@
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
   }
-  
-  .container-lessons{
-    position: absolute;
-    bottom: 0;
   }
+  
