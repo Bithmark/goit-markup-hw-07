@@ -58,11 +58,10 @@
       outline: none;
       border-color: var(--blue-color);
 
-      .modal-form-name{
+      + .modal-form-name {
         fill: var(--blue-color);
       }
     }
-
   }
   
   .modal-form-message{

@@ -986,7 +986,7 @@ a[href^="https://goo.gl/maps/AcYd8yKNyFsXZPgV9"] {
   border-color: var(--blue-color);
 }
 
-.modal-form-input:focus .modal-form-name {
+.modal-form-input:focus + .modal-form-name {
   fill: var(--blue-color);
 }
 
